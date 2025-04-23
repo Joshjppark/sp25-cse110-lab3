@@ -21,11 +21,15 @@ em {
   text-align: justify;
 }
 i {
-  color(srgb 255 100 200);
+  color: color(srgb 255 100 200);
   text-decoration: line-through;
 }
 b {
-  color-mix(rgb, red 20%, blue 80%);
+  color: color-mix(
+  in srgb,
+  red 20%,
+  blue 80%
+  );
 }
 
 header {
