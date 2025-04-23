@@ -2,30 +2,30 @@
 
 /* this is a comment  */
 body {
-  font: 'Specfial Gothic', Arial;
+  font: 'Special Gothic', Arial;
   margin: auto;
-  padding-top: 50;
-  padding-bottom: 10;
-  padding-left: 100;
-  padding-right: 5;
-  background: #721313, hsl(200, 100%, 95%);
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 50px;
+  background: #ad3131, hsl(200, 100%, 95%);
   color: rgb(35, 64, 90);
 }
 
 h2 {
-  color: hsl(237, 89%, 48%); /* HSL */
+  color: hsl(237, 89%, 48%);
 }
 
 em {
-  color: orange; /* Named color */
+  color: orange;
   text-align: justify;
 }
 i {
-  color: color(display-p3 0.8 0.3 0.7); /* Wider-gamut color */
+  color: color(srgb 255 100 200);
   text-decoration: line-through;
 }
 b {
-  color: color-mix(in srgb, red 20%, blue 80%);
+  color: color-mix(rgb, red 20%, blue 80%);
 }
 
 header {
@@ -45,7 +45,7 @@ li {
   margin-right: 5rem;
   margin-bottom: 1vw;
   margin-left: 20px;
-  padding: 16px, 32px, 64px, 128px;
+  padding: 16px 32px 64px 128px;
   border-width: 2mm;
 }
 
@@ -109,7 +109,6 @@ button:active {
 
 .grid-container {
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-gap: 20px;                       
   padding: 10px;
   background-color: #ddd;
@@ -149,7 +148,7 @@ input[type="text"] {
 }
 
 a:hover {
-  text-decoration: bold;
+  text-decoration: line-through;
   color: red;
 }
 
